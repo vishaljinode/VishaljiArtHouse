@@ -1,0 +1,44 @@
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  // Add subtle shadow to the card
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;  // Ensures the card content is aligned vertically
+    height: 100%;  // Ensures the card fills the available space
+  }
+  
+  .card-img-top {
+    width: 100%;  // Make sure the image stretches to fill the width of the card
+    height: 500px;  // Set the height of the image to 500px (adjust if necessary)
+    object-fit: cover;  // Ensures the image covers the space without distorting
+  }
+  
+  .card-body {
+    flex-grow: 1;  // Makes sure the content grows to fill available space without overflowing
+    padding: 1.25rem;  // Adds padding inside the card
+  }
+  
+  .card-title {
+    font-size: 1.25rem;  // Slightly bigger title font
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;  // Adjust description font size
+  }
+  .card-price {
+    font-size: 2rem; 
+    font-weight: bolder; // Adjust description font size
+  }
+  
+  .btn {
+    font-size: 1rem;  // Adjust the button size
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fab {
+    margin-right: 8px;  // Adds space between the icon and text
+  }
+  

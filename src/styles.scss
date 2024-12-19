@@ -1,0 +1,28 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+/* You can add global styles to this file, and also import other style files */
+/* Set up the body to cover the full height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Make the main container take the full height of the page */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This makes sure the container takes at least the full screen height */
+  }
+  
+  /* Push the footer to the bottom */
+  .main-content {
+    flex-grow: 1; /* Takes the remaining space */
+  }
+  
+  /* Example Footer Styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
