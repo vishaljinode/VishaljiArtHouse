@@ -6,7 +6,7 @@
           <img [src]="tshirt.image" class="card-img-top" alt="{{tshirt.title}}">
           <div class="card-body">
             <h5 class="card-title">{{tshirt.title}}</h5>
-            <p class="card-text">{{tshirt.description}}</p>
+            <!-- <p class="card-text">{{tshirt.description}}</p> -->
             <p><span  class="card-price">₹{{tshirt.price}}/- </span><b>(Free Home Delivery)</b></p>
             <button (click)="orderFromWhatsApp(tshirt)" class="btn btn-success w-100">
               <i class="fab fa-whatsapp"></i> Order via WhatsApp
