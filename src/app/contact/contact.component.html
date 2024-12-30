@@ -1,29 +1,18 @@
 <div class="container mt-5">
-    <h2 class="text-center mb-4">Contact Us</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-body">
-            <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
-              <div class="mb-3">
-                <label for="name" class="form-label">Your Name</label>
-                <input type="text" id="name" class="form-control" required [(ngModel)]="contact.name" name="name" #name="ngModel">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Your Email</label>
-                <input type="email" id="email" class="form-control" required [(ngModel)]="contact.email" name="email" #email="ngModel">
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label">Your Message</label>
-                <textarea id="message" class="form-control" required [(ngModel)]="contact.message" name="message" rows="4" #message="ngModel"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary w-100" [disabled]="!contactForm.form.valid">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
+  <h2 class="text-center mb-4">Contact Us</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <!-- Added title for better accessibility and responsive iframe styling -->
+        <iframe 
+          src="https://docs.google.com/forms/d/e/1FAIpQLScTrDKu5sRuONx8BkSIDKLqkca33PndJKiIdO70-kXbTYhq4w/viewform?embedded=true" 
+          width="100%" 
+          height="689" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0" 
+          title="Contact Us Form">Loading…</iframe>
       </div>
     </div>
   </div>
-  
+</div>
