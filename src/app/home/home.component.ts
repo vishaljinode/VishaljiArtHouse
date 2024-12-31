@@ -167,6 +167,13 @@ export class HomeComponent {
       price: 349,
       image:"https://res.cloudinary.com/dhyq1xwix/image/upload/v1735555126/SR_T-SHIRT_ZM021_VishaljiArtHouse_b6cctb.jpg",
       link: "https://wa.me/p/8906875649394334/919664720473"
+    },
+    {
+      id: 24,
+      title: 'Cyber Crime Awareness T-Shirt',    
+      price: 349,
+      image:"https://res.cloudinary.com/dhyq1xwix/image/upload/v1735667082/CYBER_CRIME_HELPLINE_025_VishaljiArtHouse_cpra74.jpg",
+      link: "https://wa.me/p/9593766560634435/919664720473"
     }
   ];
   orderFromWhatsApp(tshirt: any) {
